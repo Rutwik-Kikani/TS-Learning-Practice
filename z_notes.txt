@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------
+S2
+-------------------------------------------------------------------------------------------------------------------------------------------------
+#Important: Type Casing
+    In TypeScript, you work with types like string or number all the times.
+
+    Important: It is string and number (etc.), NOT String, Number etc.
+
+    The core primitive types in TypeScript are all lowercase!
+
+#Nested Objects & Types
+    Of course object types can also be created for nested objects.
+
+    Let's say you have this JavaScript object:
+
+    const product = {
+        id: 'abc1',
+        price: 12.99,
+        tags: ['great-offer', 'hot-and-new'],
+        details: {
+            title: 'Red Carpet',
+            description: 'A great carpet - almost brand-new!'
+        }
+    }
+    This would be the type of such an object:
+
+    {
+        id: string;
+        price: number;
+        tags: string[],
+        details: {
+            title: string;
+            description: string;
+        }
+    }
+    So you have an object type in an object type so to say.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+S9
+-------------------------------------------------------------------------------------------------------------------------------------------------
+In the current form, our validation logic is not entirely correct. It's not working as intended.
+
+At the moment, only one validator value is stored in the array (e.g. 'required') - of course that's not what we need. Multiple values should be stored instead - at least potentially.
+
+Here's how you can adjust the code to make that work:
+
+const registeredValidators: ValidatorConfig = {};
+ 
+function Required(target: any, propName: string) {
+  registeredValidators[target.constructor.name] = {
+    ...registeredValidators[target.constructor.name],
+    [propName]: [...registeredValidators[target.constructor.name][propName], 'required']
+  };
+}
+ 
+function PositiveNumber(target: any, propName: string) {
+  registeredValidators[target.constructor.name] = {
+    ...registeredValidators[target.constructor.name],
+    [propName]: [...registeredValidators[target.constructor.name][propName], 'positive']
+  };
+}
+For even more possible refactorings, see this thread: https://www.udemy.com/course/understanding-typescript/learn/lecture/16935744#questions/8835948

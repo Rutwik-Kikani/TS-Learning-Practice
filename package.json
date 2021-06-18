@@ -1,0 +1,15 @@
+{
+  "name": "ts-practice",
+  "version": "1.0.0",
+  "description": "this is practice demo for typescript which will follow practices from udemy course link: https://www.udemy.com/course/understanding-typescript/",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "author": "RK",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

@@ -1,0 +1,59 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------
+S1
+-------------------------------------------------------------------------------------------------------------------------------------------------
+community: https://academind.com/community/
+-------------------------------------------------------------------------------------------------------------------------------------------------
+S2
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Official TypeScript Docs: https://www.typescriptlang.org/docs/handbook/basic-types.html
+-------------------------------------------------------------------------------------------------------------------------------------------------
+S3
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Attached you find all the code snapshots for this module - you also find them attached to individual lectures throughout this module.
+
+These links might also be interesting:
+
+tsconfig Docs: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+
+Compiler Config Docs: https://www.typescriptlang.org/docs/handbook/compiler-options.html
+
+VS Code TS Debugging: https://code.visualstudio.com/docs/typescript/typescript-debugging
+-------------------------------------------------------------------------------------------------------------------------------------------------
+S4
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Kangax: https://kangax.github.io/compat-table/es6/
+
+Reference vs Primitive type: https://academind.com/tutorials/reference-vs-primitive-values/
+-------------------------------------------------------------------------------------------------------------------------------------------------
+S5
+-------------------------------------------------------------------------------------------------------------------------------------------------
+These links might also be interesting:
+
+Public and Private class fields: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields
+
+Inheritance: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+
+More on (JS) Classes: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+
+More on TS Interfaces: https://www.typescriptlang.org/docs/handbook/2/objects.html
+-------------------------------------------------------------------------------------------------------------------------------------------------
+S6
+-------------------------------------------------------------------------------------------------------------------------------------------------
+More on Advanced Types: https://www.typescriptlang.org/docs/handbook/2/types-from-types.html
+-------------------------------------------------------------------------------------------------------------------------------------------------
+S7
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Promise: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+Reference vs Primitive : https://academind.com/tutorials/reference-vs-primitive-values/
+Utility type: https://www.typescriptlang.org/docs/handbook/utility-types.html
+More on Generics: https://www.typescriptlang.org/docs/handbook/generics.html
+-------------------------------------------------------------------------------------------------------------------------------------------------
+S8
+-------------------------------------------------------------------------------------------------------------------------------------------------
+More on Decorators: https://www.typescriptlang.org/docs/handbook/decorators.html
+Object.defineProperty(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
+Package for validating decorator: https://github.com/typestack/class-validator
+-------------------------------------------------------------------------------------------------------------------------------------------------
+S9
+-------------------------------------------------------------------------------------------------------------------------------------------------
+More on Drag & Drop: https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API
